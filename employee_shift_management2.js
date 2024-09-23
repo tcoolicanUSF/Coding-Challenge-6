@@ -35,5 +35,11 @@ function displayEmployeeShifts (employees) {
 displayEmployeeShifts (employees)
 
 //Task 3:Create a Function to Assign a New Shift
+function assignShift (employees) {
+    employees.find((name)=> name === name)
+    if (employees.some((shifts) => shifts.day === day))
+        console.log(`Error: Employee Already Schedueled`)
+}
 
+//Task 4: Create a Function to Calculate Total Hours Worked
 
