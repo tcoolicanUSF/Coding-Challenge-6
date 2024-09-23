@@ -49,3 +49,13 @@ function calculateTotalHours (employeeName) {
 console.log(`Total Hours for Lamar Miller : ${calculateTotalHours("Lamar Miller")}`)
 
 //Task 5: Create a Function to List Employees with Free Days
+function listAvailableEmployees (Weekday){
+    let avilableEmployees = employees.filter(em => em.shifts.day === Weekday)
+    return (employees.map(employees => {
+        let Employee = avilableEmployees.some(person => person.name === employees.name)
+        if (employees) {
+            return `${employees.name} Already on shift on ${Weekday}`
+        } else {
+            return `${employees.name} Is Available on ${Weekday}`
+        }}))}
+        
