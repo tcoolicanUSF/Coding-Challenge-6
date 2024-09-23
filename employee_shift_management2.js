@@ -36,10 +36,16 @@ displayEmployeeShifts (employees)
 
 //Task 3:Create a Function to Assign a New Shift
 function assignShift (employees) {
-    employees.find((name)=> name === name)
+    employees.find((name)=> name === employees.name)
     if (employees.some((shifts) => shifts.day === day))
         console.log(`Error: Employee Already Schedueled`)
 }
 
 //Task 4: Create a Function to Calculate Total Hours Worked
+function calculateTotalHours (employeeName) {
+    let employee = employees.find(em => em.name === employeeName);
+    return employee.shifts.reduce((total, shifts) => total + shifts.hours)
+}
+console.log(`Total Hours for Lamar Miller : ${calculateTotalHours("Lamar Miller")}`)
 
+//Task 5: Create a Function to List Employees with Free Days
