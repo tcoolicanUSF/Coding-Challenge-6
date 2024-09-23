@@ -4,26 +4,26 @@ const employees = [{
       name: "Lamar Miller",
       shifts: [
         { day: "Monday", hours: 8 },
-        { day: "Thursday", hours: 6 },
-        { day: "Friday", hours: 7 }
+        { day: "Thursday", hours: 8 },
+        { day: "Friday", hours: 8 }
       ]},{
       name: "Myles Gaskin",
       shifts: [
-        { day: "Tuesday", hours: 9 },
+        { day: "Tuesday", hours: 8 },
         { day: "Wednesday", hours: 8 },
-        { day: "Saturday", hours: 5 }
+        { day: "Saturday", hours: 8 }
       ]},{
       name: "Jay Ajayi",
       shifts: [
         { day: "Monday", hours: 8 },
-        { day: "Wednesday", hours: 7 },
+        { day: "Wednesday", hours: 8 },
         { day: "Sunday", hours: 8 }
       ]},{
       name: "Raheem Mostert",
       shifts: [
-        { day: "Wednesday", hours: 9 },
-        { day: "Friday", hours: 7 },
-        { day: "Sunday", hours: 6 }
+        { day: "Wednesday", hours: 8 },
+        { day: "Friday", hours: 8 },
+        { day: "Sunday", hours: 8 }
       ]}];
 
 //Task 2: Create a Function to Display Employee Shift Details
